@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>モグラ</title>
+</head>
+<body>
+  <h1>スコア：<span id="score">0</span></h1>
+  <div class="container">
+    <div class="mogura_outer">
+      <div class="mogura" id="mogura1" onclick="OnButtonClick1();"><img src="mogura.png" alt=""></div>
+      <div class="dokan"><img src="kabe.jfif" alt=""></div>
+    </div>
+    <div class="mogura_outer">
+      <div class="mogura" id="mogura2" onclick="OnButtonClick2();"><img src="mogura.png" alt=""></div>
+      <div class="dokan"><img src="kabe.jfif" alt=""></div>
+    </div>
+    <div class="mogura_outer">
+      <div class="mogura" id="mogura3" onclick="OnButtonClick3();"><img src="mogura.png" alt=""></div>
+      <div class="dokan"><img src="kabe.jfif" alt=""></div>
+    </div>
+    <div class="mogura_outer">
+      <div class="mogura" id="mogura4" onclick="OnButtonClick4();"><img src="mogura.png" alt=""></div>
+      <div class="dokan"><img src="kabe.jfif" alt=""></div>
+    </div>
+    <div id="message">
+      <h3>COMPLETE!!</h3>
+      <h2>???「あたしは高校生の時もぐらたたきゲーム作ったんねん」</h2>
+      <div class="reload" onclick="reload();">Reload</div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
