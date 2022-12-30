@@ -24,7 +24,7 @@ function apper_mogura(mogura) {
 
 function hit_mogura(mogura) {
   mogura.classList.remove("appear");
-  score += 100;
+  score += 10;
   score_span.innerText = score;
   if (score >= 100){
     message.classList.add("message_appear");
